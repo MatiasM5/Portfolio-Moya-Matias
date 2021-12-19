@@ -1,0 +1,40 @@
+.footerS{
+
+	bottom: 0;
+	background: rgb(125,111,111);
+	background: linear-gradient(0deg, rgba(125,111,111,1) 0%, rgba(255,255,255,1) 100%);
+	text-align: center;
+
+}
+
+.pf{
+	color: black;
+}
+
+@media only screen and (min-width: 1024px){
+	.redes{
+		padding-left: 65px;
+  }
+    .Fcenter{
+	padding-left: 55px;
+  }
+
+}
+
+
+/* iconos */ 
+
+.icosize{
+	height: 30px;
+}
+
+.icosizeL{
+	@extend .icosize;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.logoF{
+	height: 70px;
+}
+

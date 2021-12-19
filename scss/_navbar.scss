@@ -1,0 +1,12 @@
+@mixin logo($width, $height){
+	height: $height;
+	width: $width;
+}
+
+.logoR{
+	@include logo(60px, 50px);
+}
+
+.navbar-toggler{
+	background-color: #000;
+}
