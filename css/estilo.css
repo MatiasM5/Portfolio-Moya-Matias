@@ -55,19 +55,67 @@ h3 {
   height: 130px; }
 
 .ico3 {
-  height: 115px; }
+  height: 115px;
+  margin-top: 20px; }
 
 .ico4 {
-  height: 120px; }
+  height: 120px;
+  margin-top: 20px; }
 
 .ico5 {
   height: 150px; }
+
+@media only screen and (min-width: 1024px) {
+  .gridContenedor figure .text {
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 16px;
+    opacity: 0;
+    visibility: hidden; }
+  .gridContenedor figure:hover > .text {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out; }
+  .gridContenedor figure .textJ {
+    font-size: 25px;
+    color: white;
+    opacity: 0;
+    visibility: hidden; }
+  .gridContenedor figure:hover > .textJ {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out; }
+  .gridContenedor figure .textB {
+    font-size: 25px;
+    margin-left: -8px;
+    margin-top: 26px;
+    color: white;
+    opacity: 0;
+    visibility: hidden; }
+  .gridContenedor figure:hover > .textB {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out; }
+  .gridContenedor figure .textG {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 30px;
+    color: white;
+    opacity: 0;
+    visibility: hidden; }
+  .gridContenedor figure:hover > .textG {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out; } }
 
 /* Mobil H */
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   h3 {
     text-align: center;
     margin-left: 0px; }
+  h7 {
+    color: white; }
   .gridContenedor {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
