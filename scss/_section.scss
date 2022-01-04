@@ -189,9 +189,6 @@ h3 {
 }
 
 
-
-
-
 /* Proyectos */
 
 h4{
@@ -223,4 +220,15 @@ p5{
 .Contenido5{
 	text-align: map-get($texto, centro);
 	color: map-get($texto, color);
+}
+
+
+/* Proximamente */
+
+.imgP{
+	height: 250px;
+}
+
+.carousel-inner{
+	margin-top: -50px;
 }

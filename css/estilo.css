@@ -153,6 +153,13 @@ p5 {
   text-align: center;
   color: white; }
 
+/* Proximamente */
+.imgP {
+  height: 250px; }
+
+.carousel-inner {
+  margin-top: -50px; }
+
 .logoR {
   height: 50px;
   width: 60px; }
