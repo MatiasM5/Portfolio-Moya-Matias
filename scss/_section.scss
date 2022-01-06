@@ -21,8 +21,7 @@ p {
 }
 
 .fondoR{
-	background-image: url("../assets/iconosdeBS/fondoa.jpg");
-	background-size: cover;
+	background-image: url("../assets/iconosdeBS/azul.png");
 	padding-top: 90px;
 	min-height: 600px;
 }
@@ -193,7 +192,6 @@ h3 {
 
 h4{
 	@extend h2;
-	margin-top: 70px;
 }
 
 .Contenido4{

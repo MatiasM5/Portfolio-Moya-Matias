@@ -1,3 +1,9 @@
+a{
+    color: black;
+	text-decoration: none;
+	
+}
+
 @mixin logo($width, $height){
 	height: $height;
 	width: $width;
@@ -10,3 +16,4 @@
 .navbar-toggler{
 	background-color: #000;
 }
+
